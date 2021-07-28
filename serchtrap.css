@@ -59,18 +59,21 @@ img:hover{
 
 
 
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800;900&display=swap');
+
+
 *, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 .clearfix:before, .clearfix:after { content: ''; display: table; }
 .clearfix:after { clear: both; }
 
 body {
   /* font-family: Andale Mono,AndaleMono,monospace !important; */
+  font-family: 'Nunito', sans-serif;
   font-weight: 400;
 
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
 }
-
 
 
 .texto_nano{
@@ -139,6 +142,7 @@ body {
 .oxford{
   color:#3D5672 !important;  
 }
+
 
 
 
@@ -227,6 +231,7 @@ body {
 
 .centrador{
   margin:0 auto;
+  text-align: center;
 }
 
 .centrado_flex{
@@ -536,11 +541,6 @@ ul{
   box-shadow: inset 0px 8px 15px -8px rgba(3,37,87,1);
 }
 
-.inner{
-  -webkit-box-shadow: inset 0px 8px 15px -8px rgba(3,37,87,1);
-  -moz-box-shadow: inset 0px 8px 15px -8px rgba(3,37,87,1);
-  box-shadow: inset 0px 8px 15px -8px rgba(3,37,87,1);
-}
 
 
 
@@ -772,7 +772,7 @@ input[type=checkbox].error {
 }
 
 
-/* //////////  COLORES 3D ///////////////  */
+/* //////////  Botones 3D ///////////////  */
 
 
 .btn-3D-amarillo{
@@ -998,7 +998,7 @@ input[type=checkbox].error {
 
 
 
-/******************************* flat ··················· */
+/* ··················· botones flat ··················· */
 
 
 .btn_blanco{
@@ -1143,6 +1143,209 @@ input[type=checkbox].error {
   background-color: #2378F2;
 }
 
+
+/* ····· ACENTOS 2020 ········*/
+
+
+.contraste1{
+  background-color: #EA282E;
+}
+.contraste2{
+  background-color: #FD391A;
+}
+.contraste3{
+  background-color: #1C5EAF;
+}
+.contraste4{
+  background-color: #0049A6;
+}
+.contraste5{
+  background-color: #2378F2;
+}
+
+
+/* ····· Backgrounds imagen y degradados 2021 ········*/
+
+.nobackground{
+  background: none !important;
+}
+.neobackground-base{
+  background-image: url('https://neored.com/images/backgrounds/back-azul-only@2x.jpg');
+  background-position: top center;
+  background-size:120%;
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  background-color: #0A3F7E;
+  /*
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  */
+}
+
+
+.neobackground{
+  background-image: url('https://neored.com/images/backgrounds/back-azul-naranja-fract@2x.jpg');
+  background-position: top center;
+  background-size:100%;
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  background-color: #0A3F7E;
+
+  /*
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  */
+}
+
+
+.neobackground-validador{
+  background-image: url('https://neored.com/images/backgrounds/neovalidador-background@2x.jpg');
+  background-position: top center;
+  background-size:120%;
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  background-color: #0A3F7E;
+}
+
+.neobackground-sms{
+  background-image: url('https://neored.com/images/backgrounds/neosms-background@2x.jpg');
+  background-position: top center;
+  background-size:120%;
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  background-color: #0A3F7E;
+}
+
+
+.neobackground-wifi{
+  background-image: url('https://neored.com/images/backgrounds/neowifi-background@2x.jpg');
+  background-position: top center;
+  background-size:120%;
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  background-color: #0A3F7E;
+}
+
+.neobackground-smtp{
+  background-image: url('https://neored.com/images/backgrounds/neosmtp-background@2x.jpg');
+  background-position: top center;
+  background-size:120%;
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  background-color: #0A3F7E;
+}
+
+.neobackground-neoconecta{
+  background-image: url('https://neored.com/images/backgrounds/neoconecta-background@2x.jpg');
+  background-position: top center;
+  background-size:120%;
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  background-color: #0A3F7E;
+}
+
+.neobackground-push{
+  background-image: url('https://neored.com/images/backgrounds/neopush-background@2x.jpg');
+  background-position: top center;
+  background-size:120%;
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  background-color: #0A3F7E;
+}
+
+.gradiente_azul_oscuro{
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#10529d+0,0f3d72+49,002a56+100 */
+  background: #10529d; /* Old browsers */
+  background: -moz-radial-gradient(center, ellipse cover, #10529d 0%, #0f3d72 49%, #002a56 100%); /* FF3.6-15 */
+  background: -webkit-radial-gradient(center, ellipse cover, #10529d 0%,#0f3d72 49%,#002a56 100%); /* Chrome10-25,Safari5.1-6 */
+  background: radial-gradient(ellipse at center, #10529d 0%,#0f3d72 49%,#002a56 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#10529d', endColorstr='#002a56',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+.gradient_azul{
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2a89b3+0,1d6991+47,175a81+100 */
+  background: #2a89b3; /* Old browsers */
+  background: -moz-radial-gradient(center, ellipse cover, #2a89b3 0%, #1d6991 47%, #175a81 100%); /* FF3.6-15 */
+  background: -webkit-radial-gradient(center, ellipse cover, #2a89b3 0%,#1d6991 47%,#175a81 100%); /* Chrome10-25,Safari5.1-6 */
+  background: radial-gradient(ellipse at center, #2a89b3 0%,#1d6991 47%,#175a81 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2a89b3', endColorstr='#175a81',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.gradiente_azul2{
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1f8bde+0,1374b8+44,136594+100 */
+background: #1f8bde; /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover, #1f8bde 0%, #1374b8 44%, #136594 100%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover, #1f8bde 0%,#1374b8 44%,#136594 100%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center, #1f8bde 0%,#1374b8 44%,#136594 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1f8bde', endColorstr='#136594',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.gradiente_naranja{
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e67e21+0,de3e00+51,d34112+100 */
+    background: #e67e21; /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover, #e67e21 0%, #de3e00 51%, #d34112 100%); /* FF3.6-15 */
+    background: -webkit-radial-gradient(center, ellipse cover, #e67e21 0%,#de3e00 51%,#d34112 100%); /* Chrome10-25,Safari5.1-6 */
+    background: radial-gradient(ellipse at center, #e67e21 0%,#de3e00 51%,#d34112 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e67e21', endColorstr='#d34112',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+.gradiente_gris{
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f7f7f7+0,e1e9ef+51,bbd1de+100 */
+background: #f7f7f7; /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover, #f7f7f7 0%, #e1e9ef 51%, #bbd1de 100%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover, #f7f7f7 0%,#e1e9ef 51%,#bbd1de 100%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center, #f7f7f7 0%,#e1e9ef 51%,#bbd1de 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#bbd1de',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+
+.gradiente_amarillo{
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ecc02a+0,e9b033+44,fca22f+100 */
+background: #ecc02a; /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover, #ecc02a 0%, #e9b033 44%, #fca22f 100%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover, #ecc02a 0%,#e9b033 44%,#fca22f 100%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center, #ecc02a 0%,#e9b033 44%,#fca22f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ecc02a', endColorstr='#fca22f',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.gradiente_amarillo2{
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#faea88+0,fcc63d+72,ffb633+100 */
+background: #faea88; /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover, #faea88 0%, #fcc63d 72%, #ffb633 100%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover, #faea88 0%,#fcc63d 72%,#ffb633 100%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center, #faea88 0%,#fcc63d 72%,#ffb633 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#faea88', endColorstr='#ffb633',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.gradiente_verde{
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#6eb547+0,72ae39+51,549b1e+100 */
+background: #6eb547; /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover, #6eb547 0%, #72ae39 51%, #549b1e 100%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover, #6eb547 0%,#72ae39 51%,#549b1e 100%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center, #6eb547 0%,#72ae39 51%,#549b1e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6eb547', endColorstr='#549b1e',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.gema{
+  background: #E13612;
+
+  -webkit-box-shadow: inset 0px 8px 15px -8px rgba(3,37,87,1);
+  -moz-box-shadow: inset 0px 8px 15px -8px rgba(3,37,87,1);
+  box-shadow: inset 0px 8px 15px -8px rgba(3,37,87,1);
+
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#17578b+0,b23809+71,e93c26+100 */
+  background: #17578b; /* Old browsers */
+  background: -moz-linear-gradient(top, #17578b 0%, #b23809 71%, #e93c26 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #17578b 0%,#b23809 71%,#e93c26 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #17578b 0%,#b23809 71%,#e93c26 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#17578b', endColorstr='#e93c26',GradientType=0 ); /* IE6-9 */
+}
 
 
 
